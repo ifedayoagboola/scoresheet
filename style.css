@@ -1,0 +1,25 @@
+body {
+    width: 50%;
+    margin: 30px auto 30px;
+}
+
+#container {
+    background-color: #00b7c2;
+    /* width: 50%; */
+    /* margin: auto; */
+    /* display: none; */
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 50px;
+    border: 1px black solid;
+}
+
+td {
+    text-align: center;
+}

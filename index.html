@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score sheet</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div>
+
+        Full Name: <input id="name" type="text"> &nbsp; &nbsp;
+        Registration Number: <input id="reg" type="number">
+        <br><br>
+        Subject Name 1: <input type="text" value="" id="sna1">
+        Subject Score 1: <input type="number" value="" id="ssc1"><br>
+        Subject Name 2: <input type="text" value="" id="sna2">
+        Subject Score 2: <input type="number" value="" id="ssc2"><br>
+        Subject Name 3: <input type="text" value="" id="sna3">
+        Subject Score 3: <input type="number" value="" id="ssc3"> <br>
+        Subject Name 4: <input type="text" value="" id="sna4">
+        Subject Score 4: <input type="number" value="" id="ssc4"> <br>
+        Subject Name 5: <input type="text" value="" id="sna5">
+        Subject Score 5: <input type="number" value="" id="ssc5"> <br><br>
+        <input type="submit" value="Generate mark sheet" onclick=generate()>
+
+    </div>
+
+
+    <div id="container">
+        <div>
+            <h1>Score Sheet</h1>
+            <table>
+                <th>
+                    Candidate Name:
+                </th>
+                <td id="sname"></td>
+                <th>
+                    Reg number:
+                </th>
+                <td id="sreg"></td>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr class="thead">
+                    <th>Subject</th>
+                    <th>Obtained marks</th>
+                    <th>Out of</th>
+                    <th>grade</th>
+                </tr>
+                <tr>
+                    <td id="sub1"></td>
+                    <td id="score1"></td>
+                    <td>100</td>
+                    <td id="grade1"></td>
+                </tr>
+                <tr>
+                    <td id="sub2"></td>
+                    <td id="score2"></td>
+                    <td>100</td>
+                    <td id="grade2"></td>
+                </tr>
+                <tr>
+                    <td id="sub3"></td>
+                    <td id="score3"></td>
+                    <td>100</td>
+                    <td id="grade3"></td>
+                </tr>
+                <tr>
+                    <td id="sub4"></td>
+                    <td id="score4"></td>
+                    <td>100</td>
+                    <td id="grade4"></td>
+                </tr>
+                <tr>
+                    <td id="sub5"></td>
+                    <td id="score5"></td>
+                    <td>100</td>
+                    <td id="grade5"></td>
+                </tr>
+
+            </table>
+        </div>
+        <div>
+            <table>
+                <th>Total Obtained marks:</th>
+                <td id="tom"></td>
+                <th>Percentage:</th>
+                <td id="perc"></td>
+                <th>Remark:</th>
+                <td id="totalremark"></td>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
